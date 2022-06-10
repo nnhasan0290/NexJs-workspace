@@ -17,21 +17,27 @@ const Navbar = () => {
         <div>
           <ul className="hidden lg:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm font-bold uppercase hover:border-b">
+                Home
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">about</li>
+              <li className="ml-10 text-sm font-bold uppercase hover:border-b">
+                about
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">skills</li>
+              <li className="ml-10 text-sm font-bold uppercase hover:border-b">
+                skills
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm font-bold uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm font-bold uppercase hover:border-b">
                 contract
               </li>
             </Link>
@@ -62,8 +68,8 @@ const Navbar = () => {
               height={40}
               className="object-contain"
             />
-            <div className="p-2 rounded-full border shadow-lg cursor-pointer shadow-gray-400">
-              <AiOutlineClose onClick={handleNav} />
+            <div onClick={handleNav} className="p-2 rounded-full border shadow-lg cursor-pointer shadow-gray-400">
+              <AiOutlineClose  />
             </div>
           </div>
           <div className="mx-4">
@@ -89,7 +95,7 @@ const Navbar = () => {
                 </Link>
               </ul>
             </div>
-            <div className="pt-40">
+            <div className="hidden pt-20 sm:block">
               <p className="tracking-widest uppercase">Let's connect</p>
               <div className="flex flex-row justify-between my-3 w-[70%]">
                 <div className="p-3 rounded-full border shadow-lg cursor-pointer shadow-gray-400">

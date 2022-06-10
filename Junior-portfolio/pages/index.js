@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar.jsx";
+import Main from "../components/Main.jsx";
 export default function Home() {
   return (
     <div>
@@ -9,6 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <Main />
     </div>
   );
 }
