@@ -3,7 +3,7 @@ const About = () => {
     <div className="flex justify-center items-center p-2 py-16 md:h-screen">
       <div className="grid-cols-3 gap-8 items-center m-auto md:grid">
         <div className="col-span-2 tracking-wider">
-          <h4 className="text-[#5651e5]">About</h4>
+          <h5 className="text-[#5651e5]">About</h5>
           <h3>Who I Am</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipiscing elit nec a tellus,

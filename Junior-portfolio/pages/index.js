@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/Navbar.jsx";
 import Main from "../components/Main.jsx";
 import About from "../components/About.jsx";
+import Skills from "../components/Skills.js";
 export default function Home() {
   return (
     <div>
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar />
       <Main />
       <About/>
+      <Skills/>
     </div>
   );
 }

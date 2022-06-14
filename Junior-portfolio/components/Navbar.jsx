@@ -26,7 +26,7 @@ const Navbar = () => {
                 about
               </li>
             </Link>
-            <Link href="/">
+            <Link href="#skills">
               <li className="ml-10 text-sm font-bold uppercase hover:border-b">
                 skills
               </li>
