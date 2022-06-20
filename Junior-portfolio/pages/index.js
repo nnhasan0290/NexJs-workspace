@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar.jsx";
 import Main from "../components/Main.jsx";
 import About from "../components/About.jsx";
 import Skills from "../components/Skills.js";
+import Projects from "../components/Projects.jsx";
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       <Main />
       <About/>
       <Skills/>
+      <Projects/>
     </div>
   );
 }
