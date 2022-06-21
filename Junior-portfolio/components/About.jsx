@@ -12,7 +12,7 @@ const About = () => {
             venenatis vel mollis, viverra aptent montes orci quam et lectus
             vestibulum at dapibus, Erat sem mus parturient pharetra congue eget
             non, orci netus sagittis nulla blandit ullamcorper tellus, rutrum
-            viverra nisi nullam ut
+            viverra nisi nullam ut Lorem ipsum dolor sit amet consectetur adipiscing elit per porta vel convallis pulvinar neque ultrices,
           </p>
           <p className="py-10">
             Erat sem mus parturient pharetra congue eget non, orci netus
